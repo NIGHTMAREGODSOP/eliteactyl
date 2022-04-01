@@ -1,0 +1,108 @@
+{
+    "index": "index.ejs",
+    "notfound": "404.ejs",
+    "redirect": {
+        "callback": "/dashboard",
+        "failedcallback": "/",
+        "logout": "/",
+        "deleteserver": "/servers",
+        "updateservers": "/dashboard",
+        "createserver": "/servers",
+        "failedcreateserver": "/servers/new",
+        "modifyserver": "/servers",
+        "failedmodifyserver": "/servers/edit",
+        "setplan": "/admin",
+        "failedsetplan": "/admin",
+        "getip": "/admin",
+        "failedgetip": "/admin",
+        "createserverdisabled": "/servers?err=disabled",
+        "modifyserverdisabled": "/servers?err=disabled",
+        "deleteserverdisabled": "/servers?err=disabled",
+        "regenpassword": "/dashboard",
+        "setresources": "/admin",
+        "failedsetresources": "/admin",
+        "renewserver": "/servers",
+        "failedrenewserver": "/servers",
+        "setcoins": "/admin",
+        "failedsetcoins": "/admin",
+        "purchaseram": "/store",
+        "failedpurchaseram": "/store",
+        "purchasedisk": "/store",
+        "failedpurchasedisk": "/store",
+        "purchasecpu": "/store",
+        "failedpurchasecpu": "/store",
+        "purchaseservers": "/store",
+        "failedpurchaseservers": "/store",
+        "arcioerror": "/dashboard",
+        "missingorinvalidcouponcode": "/redeem",
+        "successfullyredeemedcoupon": "/redeem",
+        "couponcreationfailed": "/admin",
+        "couponcreationsuccess": "/admin",
+        "couponrevokefailed": "/admin",
+        "couponrevokesuccess": "/admin",
+        "removeaccountfailed": "/admin",
+        "removeaccountsuccess": "/admin"
+    },
+    "pages": {
+        "dashboard": "dashboard.ejs",
+        "servers": "servers.ejs",
+        "servers/new": "create.ejs",
+        "servers/edit": "edit.ejs",
+        "admin": "admin.ejs",
+        "store": "store.ejs",
+        "arcio": "arcio.ejs",
+        "profile":"profile.ejs",
+        "redeem":"redeem.ejs"
+    },
+    "mustbeloggedin": [
+        "/dashboard",
+        "/servers",
+        "/servers/new",
+        "/servers/edit",
+        "/store"
+    ],
+    "mustbeadmin": [
+        "/admin"
+    ],
+    "variables": {
+        "footerad": true,
+        "faviconlink": "https://cdn.discordapp.com/attachments/946264593746001960/958209347173888030/unknown_1.png",
+        "home": {
+            "title": "Home",
+            "name": "Elitenodes",
+            "topmsg": "Elitenodes",
+            "bottommsg": "Elitenodes free/paid hosting",
+            "buttontext": {
+                "loggedin": {
+                    "text": "Dashboard",
+                    "link": "/dashboard"
+                },
+                "loggedout": {
+                    "text": "Login",
+                    "link": "/login"
+                }
+            }
+        },
+        "dashboard": {
+            "title": "Dashboard"
+        },
+        "servers": {
+            "title": {
+                "list": "Servers",
+                "create": "Create Server",
+                "modify": "Modify Server"
+            }
+        },
+        "error": {
+            "title": "404"
+        },
+        "admin": {
+            "title": {
+                "default": "Admin"
+            }
+        },
+        "store": {
+            "title": "Store"
+        }
+    }
+}
