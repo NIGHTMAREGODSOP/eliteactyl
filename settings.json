@@ -6,7 +6,7 @@
     "secret": "demonssssssssssssssssssssss"
   },
   "pterodactyl": {
-    "domain": "https://gp.elitenodes.site/",
+    "domain": "",
     "key": ""
   },
   "linkvertise": {
@@ -76,9 +76,9 @@
       },
       "oauth2": {
         "_comment": "Go to https://discord.dev/ and create an application to set these up.",
-        "id": "938787715749658624",
-        "secret": "TEZz7thqmo17mnfn99wPzDJyOTCEY0wJ",
-        "link": "https://client.dtnodes.cf/",
+        "id": "",
+        "secret": "",
+        "link": "",
         "callbackpath": "/callback",
         "prompt": true,
 

@@ -52,14 +52,17 @@
         "store": "store.ejs",
         "arcio": "arcio.ejs",
         "profile":"profile.ejs",
-        "redeem":"redeem.ejs"
+        "redeem":"redeem.ejs",
+        "donate":"paypal.me/xitenodes"
     },
     "mustbeloggedin": [
         "/dashboard",
         "/servers",
         "/servers/new",
         "/servers/edit",
-        "/store"
+        "/store",
+        "/arcio",
+        "/profile"
     ],
     "mustbeadmin": [
         "/admin"
@@ -103,6 +106,12 @@
         },
         "store": {
             "title": "Store"
+        },
+        "arcio": {
+            "title": "AFk"
+        },
+        "profile": {
+            "title": "Profile"
         }
     }
 }
