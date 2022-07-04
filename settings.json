@@ -17,6 +17,9 @@
     "on":"true",
 "code":"https://cdn.discordapp.com/attachments/946264593746001960/959303755965267978/unknown.png"
   },
+  "links": {
+    "discord": "https://discord.gg/egKwkjGq"
+  },
   "database": "database.sqlite",
   "api": {
     "client": {
